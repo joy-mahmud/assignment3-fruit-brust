@@ -38,11 +38,11 @@
 </head>
 
 <body class="lato">
-    <header class="container mx-auto">
+    <header class=" mx-5 lg:container lg:mx-auto">
         <!-- navbar -->
-        <div class="navbar bg-[#F85559] rounded-full flex justify-between lg:px-12 py-3 static my-5">
-            <div>
-                <ul class="text-white font-medium flex gap-7">
+        <div class="navbar lg:bg-[#F85559] rounded-full flex justify-between lg:px-12 py-3 static my-5">
+            <div class="hidden lg:flex">
+                <ul class="text-white flex font-medium gap-7">
                     <li><a href=""></a>Home</li>
                     <li><a href=""></a>About us</li>
                     <li><a href=""></a>Shop</li>
@@ -50,26 +50,27 @@
                 </ul>
             </div>
             <div class="space-x-4">
-                <img src="images/logo.png" alt="logo" class="h-12 w-11">
-                <h3 class="text-white font-bold text-[36px]">Fruit Burst</h3>
+                <img src="images/logo.png" alt="logo" class="h-[30px] lg:h-12 w-[28px] lg:w-11">
+                <h3 class="text-[#121212] lg:text-white font-bold  text-[20px] lg:text-[36px]">Fruit Burst</h3>
             </div>
-            <div class="bg-white rounded-full px-4">
+            <div class="lg:hidden"><i class="fa-solid fa-bars"></i></div>
+            <div class="bg-white rounded-full px-4 hidden lg:block">
                 <input type="text" placeholder="Search here"
                     class="border-none outline-none h-11 w-56 rounded-full" /><i
                     class="fa-solid fa-magnifying-glass "></i>
             </div>
         </div>
-        <div class="relative mb-10">
+        <div class="relative lg:mb-10">
             <div class="carousel w-full py-10">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="images/banner1.png" class="w-full bg-black" />
-                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-4">
-                        <h3 class="text-white text-7xl font-extrabold text-center">Exotic tastes at your <br>doorstep
+                    <img src="images/banner1.png" class="w-full" />
+                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center  space-y-1 lg:space-y-4">
+                        <h3 class="text-white text-2xl lg:text-7xl lg:font-extrabold text-center">Exotic tastes at your <br>doorstep
                         </h3>
-                        <p class="text-[20px] font-medium text-white">We supply highly quality organic products</p>
-                        <button class="bg-primary-color px-6 py-4 rounded-lg w-36 text-white"> Shop now </button>
+                        <p class=" text-[14px] lg:text-[20px] font-normal lg:font-medium text-white">We supply highly quality organic products</p>
+                        <button class="bg-primary-color px-4 lg:px-6 py-2 lg:py-4 rounded-lg lg:w-36 text-white"> Shop now </button>
                     </div>
-                    <div class="flex justify-center absolute top-[78%] w-[100%] shadow-md ">
+                    <div class="lg:flex hidden justify-center absolute lg:top-[78%] w-[100%] shadow-md">
                         <div class="flex justify-around bg-white gap-12 px-16 py-12 rounded-xl">
                             <div class="flex flex-col justify-center items-center gap-2">
                                 <img src="images/fruit1.png" alt="">
@@ -100,13 +101,13 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="images/banner2.png" class="w-full" />
-                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-4">
-                        <h3 class="text-white text-7xl font-extrabold text-center">Exotic tastes at your <br>doorstep
+                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-0 lg:space-y-4">
+                        <h3 class="text-white text-2xl lg:text-7xl lg:font-extrabold text-center">Exotic tastes at your <br>doorstep
                         </h3>
-                        <p class="text-[20px] font-medium text-white">We supply highly quality organic products</p>
-                        <button class="bg-primary-color px-6 py-4 rounded-lg w-36 text-white"> Shop now </button>
+                        <p class="text-[14px] lg:text-[20px] font-normal lg:font-medium text-white">We supply highly quality organic products</p>
+                        <button class="bg-primary-color px-4 lg:px-6 py-2 lg:py-4 rounded-lg lg:w-36 text-white"> Shop now </button>
                     </div>
-                    <div class="flex justify-center absolute top-[78%] w-[100%] shadow-md">
+                    <div class="lg:flex hidden justify-center absolute lg:top-[78%] w-[100%] shadow-md">
                         <div class="flex justify-around bg-white gap-12 px-16 py-12 rounded-xl">
                             <div class="flex flex-col justify-center items-center gap-2">
                                 <img src="images/fruit1.png" alt="">
@@ -137,13 +138,13 @@
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <img src="images/banner3.png" class="w-full" />
-                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-4">
-                        <h3 class="text-white text-7xl font-extrabold text-center">Exotic tastes at your <br>doorstep
+                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-1 lg:space-y-4">
+                        <h3 class="text-white text-2xl lg:text-7xl lg:font-extrabold text-center">Exotic tastes at your <br>doorstep
                         </h3>
-                        <p class="text-[20px] font-medium text-white">We supply highly quality organic products</p>
-                        <button class="bg-primary-color px-6 py-4 rounded-lg w-36 text-white"> Shop now </button>
+                        <p class="text-[14px] lg:text-[20px] font-normal lg:font-medium text-white">We supply highly quality organic products</p>
+                        <button class="bg-primary-color px-4 lg:px-6 py-2 lg:py-4 rounded-lg lg:w-36 text-white"> Shop now </button>
                     </div>
-                    <div class="flex justify-center absolute top-[78%] w-[100%] shadow-md">
+                    <div class="lg:flex hidden justify-center absolute lg:top-[78%] w-[100%] shadow-md">
                         <div class="flex justify-around bg-white gap-12 px-16 py-12 rounded-xl">
                             <div class="flex flex-col justify-center items-center gap-2">
                                 <img src="images/fruit1.png" alt="">
@@ -172,52 +173,53 @@
                         <a href="#slide4" class="btn btn-circle text-white bg-slate-800 hover:bg-slate-600">❯</a>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="images/banner4.png" class="w-full" />
-                    <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-4">
-                        <h3 class="text-white text-7xl font-extrabold text-center">Exotic tastes at your <br>doorstep
-                        </h3>
-                        <p class="text-[20px] font-medium text-white">We supply highly quality organic products</p>
-                        <button class="bg-primary-color px-6 py-4 rounded-lg w-36 text-white"> Shop now </button>
-                    </div>
-                    <div class="flex justify-center absolute top-[78%] w-[100%] shadow-md ">
-                        <div class="flex justify-around bg-white gap-12 px-16 py-12 rounded-xl">
-                            <div class="flex flex-col justify-center items-center gap-2">
-                                <img src="images/fruit1.png" alt="">
-                                <h3 class="text-[20px]">Grapes</h3>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="images/banner4.png" class="w-full" />
+                        <div class="absolute top-[18%] left-[25%] flex flex-col justify-center items-center space-y-1 lg:space-y-4" >
+                            <h3 class="text-white text-2xl lg:text-7xl lg:font-extrabold text-center">Exotic tastes at your <br>doorstep
+                            </h3>
+                            <p class="text-[14px] lg:text-[20px] font-normal lg:font-medium text-white">We supply highly quality organic products</p>
+                            <button class="bg-primary-color px-4 lg:px-6 py-2 lg:py-4 rounded-lg lg:w-36 text-white"> Shop now </button>
+                        </div>
+                            <div class="lg:flex hidden justify-center absolute lg:top-[78%] w-[100%] shadow-md">
+                                <div class="flex justify-around bg-white gap-12 px-16 py-12 rounded-xl">
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <img src="images/fruit1.png" alt="">
+                                        <h3 class="text-[20px]">Grapes</h3>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <img src="images/fruit2.png" alt="">
+                                        <h3 class="text-[20px]">Orange</h3>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <img src="images/fruit3.png" alt="">
+                                        <h3 class="text-[20px]">Mango</h3>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <img src="images/fruit4.png" alt="">
+                                        <h3 class="text-[20px]">Strawberry</h3>
+                                    </div>
+                                    <div class="flex flex-col justify-center items-center gap-2">
+                                        <img src="images/fruit5.png" alt="">
+                                        <h3 class="text-[20px]">Anar</h3>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="flex flex-col justify-center items-center gap-2">
-                                <img src="images/fruit2.png" alt="">
-                                <h3 class="text-[20px]">Orange</h3>
-                            </div>
-                            <div class="flex flex-col justify-center items-center gap-2">
-                                <img src="images/fruit3.png" alt="">
-                                <h3 class="text-[20px]">Mango</h3>
-                            </div>
-                            <div class="flex flex-col justify-center items-center gap-2">
-                                <img src="images/fruit4.png" alt="">
-                                <h3 class="text-[20px]">Strawberry</h3>
-                            </div>
-                            <div class="flex flex-col justify-center items-center gap-2">
-                                <img src="images/fruit5.png" alt="">
-                                <h3 class="text-[20px]">Anar</h3>
-                            </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle text-white bg-slate-800 hover:bg-slate-600">❮</a>
+                            <a href="#slide1" class="btn btn-circle text-white bg-slate-800 hover:bg-slate-600">❯</a>
                         </div>
                     </div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle text-white bg-slate-800 hover:bg-slate-600">❮</a>
-                        <a href="#slide1" class="btn btn-circle text-white bg-slate-800 hover:bg-slate-600">❯</a>
-                    </div>
-                </div>
             </div>
         </div>
 
     </header>
-    <main class="container mx-auto">
-        <section class=" my-32">
-            <div class="flex justify-between ml-10 mb-12">
-                <div class="w-1/2 space-y-3">
-                    <h3 class="text-[#121212;] font-extrabold text-5xl">Deal of the day</h3>
+    <main class=" mx-5 lg:container lg:mx-auto">
+        <!-- deal of the day section -->
+        <section class=" container mx-auto my-10 lg:my-32">
+            <div class="flex flex-col lg:flex-row gap-5 lg:gap-0 text-center items-center justify-between mb-12">
+                <div class="lg:w-1/2 space-y-3 text-center lg:text-start">
+                    <h3 class="text-[#121212;] font-extrabold text-2xl lg:text-5xl">Deal of the day</h3>
                     <p class="text-[#12121299] font-medium">Contrary to popular belief, is not simply random text. It
                         has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                     </p>
@@ -225,28 +227,28 @@
                 <div>
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-extrabold text-[28px] lg:text-5xl">
                                 <span style="--value:15;"></span>
                             </span>
                             days
                         </div>
-                        <img src="icons/threedot.png" alt="" class="mt-4">
+                        <img src="icons/threedot.png" alt="" class="lg:mt-4">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-extrabold text-[28px] lg:text-5xl">
                                 <span style="--value:10;"></span>
                             </span>
                             hours
                         </div>
-                        <img src="icons/threedot.png" alt="" class="mt-4">
+                        <img src="icons/threedot.png" alt="" class="lg:mt-4">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-extrabold text-[28px] lg:text-5xl">
                                 <span style="--value:24;"></span>
                             </span>
                             min
                         </div>
-                        <img src="icons/threedot.png" alt="" class="mt-4">
+                        <img src="icons/threedot.png" alt="" class="lg:mt-4">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-extrabold text-[28px] lg:text-5xl">
                                 <span style="--value:41;"></span>
                             </span>
                             sec
@@ -254,7 +256,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex gap-5 justify-between">
+            <div class="flex flex-col lg:flex-row gap-5 justify-between">
                 <div class="card bg-base-100 shadow-xl w-96">
                     <figure class="px-10 pt-10">
                         <img src="images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -562,18 +564,17 @@
 
         </section>
         <!-- meet the team section -->
-        <section class="mb-32">
-            <div class="relative">
-                <img src="images/banner1.png" alt="" class="rounded-lg">
-                <div class="absolute top-0 left-0 w-[100%] h-[100%] bg-[#121212b3] rounded-lg">
-                    <div class="flex justify-center flex-col items-center px-32 py-28">
+        <section class=" mb-6 lg:mb-32">
+            <div style="background-image: url(/images/banner1.png); background-repeat: no-repeat;background-size: cover;" class="rounded-md lg:rounded-lg">
+                <div class=" w-[100%] h-[100%] bg-[#121212b3] rounded-md lg:rounded-lg">
+                    <div class="flex justify-center flex-col items-center px-7 lg:px-32 py-28">
                         <div class="text-center space-y-6">
-                            <h2 class="text-white text-5xl font-extrabold">Meet the team section</h2>
-                            <p class="text-white font-medium">Contrary to popular belief, is not simply random text. It
+                            <h2 class="text-white text-[20px] lg:text-5xl font-extrabold">Meet the team </h2>
+                            <p class="text-white text-[14px] lg:text-[16px] font-medium">Contrary to popular belief, is not simply random text. It
                                 has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000
                                 years old.</p>
                         </div>
-                        <div class="flex justify-around w-[100%]">
+                        <div class="flex flex-col lg:flex-row justify-around w-[100%]">
                             <div class="mt-10 text-center flex flex-col items-center gap-3">
                                 <div class="avatar">
                                     <div class="w-24 rounded-full">
@@ -637,41 +638,44 @@
 
         </section>
         <!-- why choose us section -->
-        <section class="mb-32">
+        <section class=" mb-6 lg:mb-32">
             <div class="flex flex-col text-center gap-4 mb-12">
-                <h3 class="text-5xl font-extrabold text-black">Why Choose Us</h3>
+                <h3 class=" text-2xl lg:text-5xl font-extrabold text-black">Why Choose Us</h3>
                 <p class="font-medium text-[#12121299]">Contrary to popular belief, is not simply random text. It has
                     roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-            <div class="flex justify-between gap-12">
-                <div class="space-y-6">
-                    <div class="flex gap-6">
+            <div class="flex flex-col lg:flex-row justify-between gap-12">
+                <div class="space-y-5">
+                    <div class="lg:hidden">
+                        <img src="images/whychoose1.png" alt="" class="">
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center text-center lg:text-start lg:items-start gap-6">
                         <div
-                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] h-[50px] rounded-full">
+                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] max-w-[50px] h-[50px] rounded-full">
                             <img src="icons/group 1.png" alt=""></div>
-                        <div class="space-y-1">
+                        <div class="space-y-1 flex justify-center items-center flex-col lg:items-start">
                             <h3 class="text-2xl font-extrabold">Dedicated Team</h3>
                             <hr class="w-[100px] bg-[#121212cc] h-[2px]">
                             <p class="text-[#12121299] font-medium">Professional employees are there for you to pick the
                                 most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex gap-6">
+                    <div class="flex flex-col lg:flex-row items-center text-center lg:text-start lg:items-start gap-6">
                         <div
-                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] h-[50px] rounded-full">
+                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] max-w-[50px] h-[50px] rounded-full">
                             <img src="icons/love 1.png" alt=""></div>
-                        <div class="space-y-1">
+                        <div class="space-y-1 flex justify-center items-center flex-col lg:items-start">
                             <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
                             <hr class="w-[100px] bg-[#121212cc] h-[2px]">
                             <p class="text-[#12121299] font-medium">Professional employees are there for you to pick the
                                 most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex gap-6">
+                    <div class="flex flex-col lg:flex-row items-center text-center lg:text-start lg:items-start gap-6">
                         <div
-                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] h-[50px] rounded-full">
+                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] max-w-[50px] h-[50px] rounded-full">
                             <img src="icons/gift-box 1.png" alt=""></div>
-                        <div class="space-y-1">
+                        <div class="space-y-1 flex justify-center items-center flex-col lg:items-start">
                             <h3 class="text-2xl font-extrabold">Gift Certificates</h3>
                             <hr class="w-[100px] bg-[#121212cc] h-[2px]">
                             <p class="text-[#12121299] font-medium">Professional employees are there for you to pick the
@@ -679,54 +683,55 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="hidden lg:block">
                     <img src="images/whychoose1.png" alt="" class="">
                 </div>
                 <div class="space-y-5">
-                    <div class="flex flex-row-reverse gap-6">
+                    <div class="flex flex-col justify-center items-center lg:flex-row-reverse gap-6">
                         <div
-                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] h-[50px] rounded-full">
+                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] max-w-[50px] h-[50px] rounded-full">
                             <img src="icons/fruit 1.png" alt=""></div>
-                        <div class="flex flex-col justify-end items-end text-end space-y-1">
+                        <div class="flex flex-col justify-center lg:justify-end items-center lg:items-end text-center lg:text-end space-y-1">
                             <h3 class="text-2xl font-extrabold">Integrated Supplier</h3>
                             <hr class="w-[100px] bg-[#121212cc] h-[2px]">
                             <p class="text-[#12121299] font-medium">Professional employees are there for you to pick the
                                 most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex flex-row-reverse gap-6">
+                    <div class="flex flex-col justify-center items-center lg:flex-row-reverse gap-6">
                         <div
-                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] h-[50px] rounded-full">
+                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] max-w-[50px] h-[50px] rounded-full">
                             <img src="icons/ice-cream 1.png" alt=""></div>
-                        <div class="flex flex-col justify-end items-end text-end space-y-1">
-                            <h3 class="text-2xl font-extrabold">Fresh is Best</h3>
+                        <div class="flex flex-col justify-center lg:justify-end items-center lg:items-end text-center lg:text-end space-y-1">
+                            <h3 class="text-2xl font-extrabold">Sustainable Practice</h3>
                             <hr class="w-[100px] bg-[#121212cc] h-[2px]">
                             <p class="text-[#12121299] font-medium">Professional employees are there for you to pick the
                                 most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex flex-row-reverse gap-6">
+                    <div class="flex flex-col justify-center items-center lg:flex-row-reverse gap-6">
                         <div
-                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] h-[50px] rounded-full">
+                            class=" flex justify-center items-center bg-[#1212121a] min-w-[50px] max-w-[50px] h-[50px] rounded-full">
                             <img src="icons/like 1.png" alt=""></div>
-                        <div class="flex flex-col justify-end items-end text-end space-y-1">
+                        <div class="flex flex-col justify-center lg:justify-end items-center lg:items-end text-center lg:text-end space-y-1">
                             <h3 class="text-2xl font-extrabold">The Benefits Only</h3>
                             <hr class="w-[100px] bg-[#121212cc] h-[2px]">
                             <p class="text-[#12121299] font-medium">Professional employees are there for you to pick the
                                 most amazing and fresh fruits.</p>
                         </div>
                     </div>
+                 
                 </div>
             </div>
         </section>
     </main>
-    <footer class="bg-[#121212] flex flex-col justify-center items-center gap-14 py-32">
+    <footer class="bg-[#121212] flex flex-col justify-center items-center gap-14 py-10 lg:py-32">
         <div class="flex gap-5 items-center">
-            <img src="images/logo.png" alt="">
-            <h3 class="text-white text-[40px] font-bold">Fruit Burst</h3>
+            <img src="images/logo.png" alt="" class="w-[36] h-[39]">
+            <h3 class="text-white text-[28px] lg:text-[40px] font-bold">Fruit Burst</h3>
         </div>
-        <div>
-            <ul class="flex gap-14 text-white">
+        <div class = "px-10">
+            <ul class=" flex flex-wrap justify-around gap-5 lg:gap-10 text-white font-medium text-[14px] lg:text-[16px]">
                 <li><a href="">Home</a></li>
                 <li><a href="">About us</a></li>
                 <li><a href="">All fruits</a></li>
@@ -735,7 +740,7 @@
                 <li><a href="">My Account</a></li>
             </ul>
         </div>
-        <div class="flex gap-10">
+        <div class="flex justify-around gap-4 lg:gap-10">
             <img src="icons/twitter2.png" alt="">
             <img src="icons/facebook2.png" alt="">
             <img src="icons/youtube2.png" alt="">
